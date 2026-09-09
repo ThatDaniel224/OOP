@@ -24,6 +24,8 @@ public class m2ex9GameOnline {
 
         System.out.print("Enter Experience Points: ");
         long xp = scanner.nextLong();
+        
+        scanner.nextLine();
 
         System.out.print("Enter Rank: ");
         String rank = scanner.nextLine();
