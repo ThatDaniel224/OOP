@@ -26,7 +26,7 @@ public class m2ex10Payroll {
         double hours = scanner.nextDouble();
 
         System.out.print("Enter Hourly Rate: ");
-        String rate = scanner.nextLine();
+        double rate = scanner.nextDouble();
         
         System.out.println("\n");
         System.out.println("Employee Name:      " + name);
