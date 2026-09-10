@@ -33,7 +33,7 @@ public class m2ex10Payroll {
         System.out.println("Enter Employee ID:  " + id);
         System.out.println("Position:           " + pos);
         System.out.println("Hours Worked:       " + hours);
-        System.out.println("Hourly Rate:        " + rate);
+        System.out.printf("Hourly Rate:         %,.2f%n", rate);
         
         scanner.close();
     }
